@@ -1,0 +1,12 @@
+<html>
+<form action = " method" ">
+<label for ="name"> name <label>
+name: <input type = "text" id = "name" name ="name"><br><br>
+<label for ="age"> age <label>
+age: <input type = "text" id = "age" name ="age"><br><br>
+</form>
+<button type = "submit" form="form" value= "submit">submit</button>
+<?php if(isset($age) && $age == 18) echo"eligible";
+<?php if(isset($age) && $age > 18) echo"not eligible ";
+?>
+</html>
